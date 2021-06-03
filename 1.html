@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body>div {
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>콘텐츠 구분</h1>
+    <header>This is Header</header> <!-- 소개하는 내용 또는 네비게이션이 위치 -->
+    <footer>This is Footer</footer> <!-- 저자 정보, 저작권 정보, 내용 정보, 사이트맵, 맨위로가기, 관련된 문서 등을 표시할 때 사용 -->
+    <h1>h1</h1> <!-- 제목을 나타낼 때 사용 -->
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+    <main>This is Main</main> <!-- 문서의 주요 정보를 나타낼 때 사용 -->
+    <article>This is Article</article> <!-- 특정 독립적인 내용을 나타낼 때 사용 -->
+    <section>This is Section</section> <!-- 부분을 나타낼 때 사용 -->
+    <aside>This is Aside</aside> <!-- 특정 콘텐츠와 관련된 또 다른 콘텐츠를 나타낼 때 사용 -->
+    <nav>This is Nav</nav> <!-- 네비게이션 링크들을 나타낼 때 사용 -->
+    <address>This is Address</address> <!-- 문서 또는 article의 작성자 / 소유자에대한 연락처 정보를 나타낼 때 사용 -->
+    <div>This is div</div> <!-- division(구분)의 약자 -->
+  </div>
+
+  <div>
+    <h1>문자 콘텐츠</h1>
+    <ol>
+      <!-- ordered list -->
+      <li>웹 운영과</li>
+      <li>정보통신과</li>
+      <li>멀티미디어과</li>
+      <li>테크노경영과</li>
+    </ol>
+    <ul>
+      <!-- unordered list -->
+      <li>웹 운영과</li>
+      <li>정보통신과</li>
+      <li>멀티미디어과</li>
+      <li>테크노경영과</li>
+    </ul>
+    <dl>
+      <!-- description list -->
+      <dt>정보통신과</dt>
+      <dd>1-1</dd>
+      <dd>1-2</dd>
+      <dd>1-3</dd>
+      <dt>웹 운영과</dt>
+      <dd>1-4</dd>
+      <dd>1-5</dd>
+      <dd>1-6</dd>
+      <dt>테크노경영과</dt>
+      <dd>1-7</dd>
+      <dd>1-8</dd>
+      <dd>1-9</dd>
+      <dt>멀티미디어과</dt>
+      <dd>1-10</dd>
+      <dd>1-11</dd>
+      <dd>1-12</dd>
+    </dl>
+
+    <p>this is p tag</p> <!-- paragraph(절)의 약자 -->
+    <hr>
+    <pre>this is pre tag</pre> <!-- preformatted의 약자 -->
+    <blockquote>this is blockquote tag</blockquote> <!-- 다른 문서에서 인용된 구절을 나타낼 때 사용 -->
+  </div>
+
+  <div>
+    <h1>인라인 텍스트</h1>
+    <a href="https://google.com">this is a tag</a> <br> <!-- anchor의 약자 -->
+    <abbr title="hello world">this is abbr tag</abbr><br> <!-- abbreviation(약어)의 약자 -->
+    <b>this is b tag</b> <br> <!-- bold의 약자 중요성 x -->
+    <mark>this is mark tag</mark> <br>
+    <em>this is em tag</em> <br> <!-- emphasized(강조)의 약자 -->
+    <strong>this is strong tag</strong> <br> <!-- bold와 똑같이 표현되지만 중요하다는 의미를 내포 -->
+    <dfn>this is dfn tag</dfn> <br> <!-- definition(정의)의 약자 -->
+    <cite>this is cite tag</cite> <br> <!-- 작품의 제목을 나타낼 때 사용 -->
+    <q>this is q tag</q> <br> <!-- quotation(인용)의 약자 -->
+    <u>this is u tag</u> <br> <!-- underline의 약자. 철자가 틀린 단어에 사용 -->
+    <code>this is code tag</code> <br>
+    <kbd>this is kbd tag</kbd> <br> <!-- keyboard input을 나타낼 때 사용 -->
+    <sup>this is sup tag</sup> <br> <!-- subscript의 약자. 아래에 글자를 나타낼 때 사용  -->
+    <sub>this is sub tag</sub> <br> <!-- superscript의 약자. 아래에 글자를 나타낼 때 사용  -->
+    <time>10:00</time> <br>
+    <span>this is span tag</span> <br>
+  </div>
+  <div>
+    <h1>수정</h1>
+    <del>this is del tag</del> <br>
+    <ins>this is ins tag</ins> <br>
+  </div>
+  <div>
+    <h1>멀티미디어</h1>
+    <img src="https://via.placeholder.com/300x120" alt="Placeholder">
+    <audio controls src="SoundHelix-Song-1.mp3"></audio>
+    <video controls src="/00 2021선린인터넷고등학교 master.mp4"></video>
+    <figure>
+      <img src="https://via.placeholder.com/300x120" alt="Placeholder">
+      <figcaption>Placeholder Image</figcaption>
+    </figure>
+  </div>
+  <div>
+    <h1>내장콘텐츠</h1>
+    <iframe src="https://www.w3schools.com" frameborder="0"></iframe>
+    <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+  </div>
+
+  <div>
+    <h1>표</h1>
+    <table>
+      <caption>Monthly savings</caption>
+      <tr>
+        <!-- table row -->
+        <th>Month</th> <!-- table head -->
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td> <!-- table data -->
+        <td>$100</td>
+      </tr>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <table>
+      <colgroup>
+        <col span="2" style="background-color:red">
+        <col style="background-color:yellow">
+      </colgroup>
+      <tr>
+        <th>ISBN</th>
+        <th>Title</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>3476896</td>
+        <td>My first HTML</td>
+        <td>$53</td>
+      </tr>
+    </table>
+  </div>
+
+  <div>
+    <h1>양식</h1>
+    <form action="/form.html">
+      <fieldset>
+        <legend>개인정보</legend>
+        <label for="fname">name:</label>
+        <input type="text" id="name" name="이름"><br>
+        <textarea name="설명" id="description" cols="30" rows="10"></textarea> <br>
+        <select name="성별" id="gender">
+          <option value="남성">남성</option>
+          <option value="여성">여성</option>
+        </select><br>
+        <select name="거주지" id="city">
+          <optgroup label="서울시">
+            <option value="구로구">구로구</option>
+            <option value="동작구">동작구</option>
+            <option value="영등포구">영등포구</option>
+          </optgroup>
+          <optgroup label="경기도">
+            <option value="수원">수원</option>
+            <option value="일산">일산</option>
+          </optgroup>
+        </select><br>
+
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="브라우저" id="browser">
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="32" max="100"> 32% </progress>
+
+    <datalist id="browsers">
+      <option value="Edge">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+  </div>
+
+  <!-- 스크립트 -->
+  <script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#FF0000";
+    ctx.fillRect(0, 0, 80, 80);
+  </script>
+
+  <noscript>Your browser does not support JavaScript!</noscript>
+</body>
+
+</html>
