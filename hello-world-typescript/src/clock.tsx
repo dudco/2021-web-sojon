@@ -48,4 +48,4 @@ class Clock extends React.Component<ClockProps, ClockState> {
   }
 }
 
-export default Clock
+export default Clock;
